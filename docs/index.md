@@ -63,7 +63,7 @@ where ΔQ is the dissipated energy over time Δt, T is the environmental tempera
 - 📖 [**The Textbook**](textbook.md) — main scripture of Entropianism
 - ✈️ [**Telegram**](https://t.me/entropians) — join our community
 - 🎬 [**YouTube**](https://youtube.com/@entropianism) — video content
-- 💻 [**GitHub**](https://github.com/entropianism) — open source
+- 💻 [**GitHub**](https://github.com/oponfil/entropianism) — open source
 
 ---
 

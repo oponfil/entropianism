@@ -57,13 +57,20 @@ plugins:
         - locale: ru
           name: Русский
           build: true
+          site_name: Энтропианство
           nav_translations:
             Home: Главная
             The Textbook: Учебник
+            Download: Скачать
+          nav:
+            - Главная: index.md
+            - Учебник: textbook.md
+            - Скачать: download.ru.md
 
 nav:
   - Home: index.md
   - The Textbook: textbook.md
+  - Download: download.md
 
 extra:
   social:
@@ -74,7 +81,7 @@ extra:
       link: https://youtube.com/@entropianism
       name: YouTube
     - icon: fontawesome/brands/github
-      link: https://github.com/entropianism
+      link: https://github.com/oponfil/entropianism
       name: GitHub
   
   alternate:
@@ -94,6 +101,7 @@ markdown_extensions:
   - md_in_html
   - toc:
       permalink: true
+      toc_depth: 2
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.betterem

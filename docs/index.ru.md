@@ -63,7 +63,7 @@ $$S' = \frac{\Delta Q}{T \cdot \Delta t}$$
 - 📖 [**Учебник**](textbook.md) — главное писание Энтропианства
 - ✈️ [**Telegram**](https://t.me/entropians) — присоединяйтесь к сообществу
 - 🎬 [**YouTube**](https://youtube.com/@entropianism) — видеоконтент
-- 💻 [**GitHub**](https://github.com/entropianism) — открытый исходный код
+- 💻 [**GitHub**](https://github.com/oponfil/entropianism) — открытый исходный код
 
 ---
 
