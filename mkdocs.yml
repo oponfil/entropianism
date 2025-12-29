@@ -10,6 +10,13 @@ theme:
   name: material
   language: en
   
+  # Логотип (изображение) - раскомментируйте и укажите путь к изображению
+  # logo: assets/images/logo.png
+  
+  # Иконка из Material Icons
+  icon:
+    logo: material/fire
+  
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default

@@ -1,13 +1,8 @@
 # Textbook of Entropianism
 
-**Author:** Technoprophet Oleg Ponfilenok, December 2025
+**Author:** technoprophet Oleg Ponfilenok, December 2025
 
-!!! quote "Quotes"
-    - *"In the beginning there was chaos. Then there was more of it."*
-    - *"A future with higher uncertainty is statistically more probable."*
-    - *"This way entropy will grow faster."*
 
----
 
 ## The Essence of Entropianism
 
@@ -1759,7 +1754,7 @@ I think this model should introduce changes into the picture of observed gravita
 
 ---
 
-### [3] Power Limit
+### Power Limit
 
 Amazingly, there exists an absolute power limit in our Universe in Watts. It's easy to calculate it through the increase of energy-mass of our Universe, expanding at the speed of light in black hole cosmology. This power is caused by the pressure of entropic forces on the expanding cosmological horizon. Let's take the Universe radius R equal to the Hubble radius, which expands at the speed of light: dR/dt = c. It's also equal to the Schwarzschild radius: R = 2GM/c². From this we get power, as the increase of Universe mass-energy: P = dE/dt = c² × dM/dt = c² × (c³/2G) = c⁵/(2G) ≈ 1.8 × 10⁵² W. This turns out to be exactly half of the so-called Planck power — annihilation of Planck mass in Planck time. There exists a widely accepted hypothesis of maximum luminosity, which states that power of any local process cannot exceed this limit. If an energy flow tries to exceed it, a black hole will arise in the source region that will block further radiation outward.
 

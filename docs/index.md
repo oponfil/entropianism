@@ -1,17 +1,16 @@
 # Welcome to Entropianism
 
-!!! quote "Core Quotes"
-    - *"Thus entropy will grow faster."*
+!!! quote "Quotes by technoprophet Oleg Ponfilenok:"
     - *"In the beginning there was chaos. Then there was more of it."*
     - *"A future with higher uncertainty is statistically more probable."*
+    - *"The goal of all living beings is to accelerate entropy production."*
+    - *"Reality is a system with maximum entropy."*
 
 ---
 
 ## What is Entropianism?
 
 **Entropianism** is a new techno-religion (philosophy and ideology) that rejects God, the soul, mysticism, and free will. Its views are based on **thermodynamics and determinism**, considering entropy growth as the main driving principle of any form of life.
-
-Entropianism was founded by Technoprophet **Oleg Ponfilenok** on September 19, 2024.
 
 ---
 
@@ -33,37 +32,37 @@ where ΔQ is the dissipated energy over time Δt, T is the environmental tempera
 
 ## The Ten Commandments
 
-1. **Produce** — goods, services, content — anything useful to society
-2. **Improve** — engage in self-development, strengthen intellect, willpower and body
-3. **Expand** — grow your business, influence, develop new spaces
-4. **Multiply** — have children, raise them well
-5. **Unite** — make new friends, find like-minded people, join communities
-6. **Dream** — invent new things, strive for greatness
-7. **Be healthy** — rest well, exercise, eat healthy food
-8. **Be honest** — with yourself and others
-9. **Be kind** — help others, remember the common good
-10. **Be responsible** — think for yourself, predict the future
+1. **Produce** — goods, services, content — anything useful to society.
+2. **Improve** — engage in self-development, strengthen intellect, willpower and body.
+3. **Expand** — grow your business, influence, develop new spaces.
+4. **Multiply** — have children, raise them well.
+5. **Unite** — make new friends, find like-minded people, join communities.
+6. **Dream** — invent new things, strive for greatness.
+7. **Be healthy** — rest well, exercise, eat healthy food.
+8. **Be honest** — with yourself and others.
+9. **Be kind** — help others, remember the common good.
+10. **Be responsible** — think for yourself, predict the future.
 
 ---
 
 ## Our Mission
 
-🔬 **Scientific approach** — no unbreakable dogmas, ready to change based on evidence
+🔬 **Scientific approach** — no unbreakable dogmas, ready to change based on evidence.
 
-♻️ **Ecological mission** — move production to space, turn Earth into a park
+♻️ **Ecological mission** — move production to space, turn Earth into a park.
 
-🚀 **Space expansion** — Ponfilenok Belt (Type 1), Dyson Swarm (Type 2), Galactic Megamind (Type 3)
+🚀 **Space expansion** — Ponfilenok Belt (Type 1), Dyson Swarm (Type 2), Galactic Megamind (Type 3).
 
-📅 **Calendar of the Future** — predictions based on entropy production methodology
+📅 **Calendar of the Future** — predictions based on exponential growth and physical limits.
 
 ---
 
 ## Links
 
-- 📖 [**The Textbook**](textbook.md) — main scripture of Entropianism
-- ✈️ [**Telegram**](https://t.me/entropians) — join our community
-- 🎬 [**YouTube**](https://youtube.com/@entropianism) — video content
-- 💻 [**GitHub**](https://github.com/oponfil/entropianism) — open source
+- 📖 [**The Textbook**](textbook.md) — main scripture of Entropianism.
+- ✈️ [**Telegram**](https://t.me/entropians){:target="_blank"} — join our community.
+- 🎬 [**YouTube**](https://youtube.com/@entropianism){:target="_blank"} — video content.
+- 💻 [**GitHub**](https://github.com/oponfil/entropianism){:target="_blank"} — open source.
 
 ---
 
