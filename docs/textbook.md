@@ -8,7 +8,7 @@
 
 ### Core Concepts
 
-🔥 **Entropianism** is a new technoreligion (philosophy and ideology) that denies God, soul, mysticism, and free will. Its views are based on thermodynamics and determinism, viewing entropy growth as the main driving principle of any form of life. Entropianism was created by Technoprophet Oleg Ponfilenok along with the eponymous Telegram channel on September 19, 2024.
+🔥 **Entropianism** is a new technoreligion (philosophy and ideology) that denies God, soul, mysticism, and free will. Its views are based on thermodynamics and determinism, viewing entropy growth as the main driving principle of any form of life. Entropianism was created by technoprophet Oleg Ponfilenok along with the eponymous Telegram channel on September 19, 2024.
 
 👥 **We are Entropians.** Singular: Entropian.
 

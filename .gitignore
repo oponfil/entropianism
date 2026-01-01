@@ -26,3 +26,11 @@ Thumbs.db
 
 # Ignored files (not for website)
 Ignored/
+
+# Generated PDF files (generated automatically during deploy)
+docs/ru/Entropianism_Textbook.pdf
+*.pdf
+
+# Temporary HTML files generated during PDF creation
+docs/ru/*_temp.html
+*_temp.html

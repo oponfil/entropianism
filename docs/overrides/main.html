@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  <meta property="og:title" content="{{ config.site_name }}" />
+  <meta property="og:site_name" content="{{ config.site_name }}" />
+  <meta property="og:description" content="{{ config.site_description }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ config.site_url }}" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{{ config.site_name }}" />
+  <meta name="twitter:description" content="{{ config.site_description }}" />
+{% endblock %}
+

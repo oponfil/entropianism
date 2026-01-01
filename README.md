@@ -12,7 +12,7 @@
 
 **Entropianism** is a new techno-religion (philosophy and ideology) that rejects God, the soul, mysticism, and free will. Its views are based on thermodynamics and determinism, considering entropy growth as the main driving principle of any form of life.
 
-Entropianism was founded by Technoprophet Oleg Ponfilenok on September 19, 2024.
+Entropianism was founded by technoprophet Oleg Ponfilenok on September 19, 2024.
 
 ## Core Principles
 

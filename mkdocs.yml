@@ -1,6 +1,6 @@
 site_name: Entropianism
 site_url: https://entropianism.org
-site_description: A scientific techno-religion based on thermodynamics and determinism
+site_description: A scientific techno-religion based on thermodynamics and determinism. Founded by technoprophet Oleg Ponfilenok.
 site_author: Oleg Ponfilenok
 
 repo_url: https://github.com/oponfil/entropianism
@@ -9,6 +9,7 @@ repo_name: oponfil/entropianism
 theme:
   name: material
   language: en
+  custom_dir: docs/overrides
   
   # Логотип (изображение) - раскомментируйте и укажите путь к изображению
   # logo: assets/images/logo.png
@@ -98,6 +99,12 @@ extra:
     - name: Русский
       link: /ru/
       lang: ru
+  
+  # Дополнительные настройки для улучшения превью
+  version: 2025
+  generator: false
+  analytics:
+    provider: false
 
 markdown_extensions:
   - abbr
@@ -129,6 +136,9 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+
+extra_css:
+  - assets/stylesheets/extra.css
 
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
