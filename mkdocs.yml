@@ -69,15 +69,18 @@ plugins:
           nav_translations:
             Home: Главная
             The Textbook: Учебник
+            Scientific Articles: Научные статьи
             Download: Скачать
           nav:
             - Главная: index.md
             - Учебник: textbook.md
+            - Научные статьи: articles.md
             - Скачать: download.ru.md
 
 nav:
   - Home: index.md
   - The Textbook: textbook.md
+  - Scientific Articles: articles.md
   - Download: download.md
 
 extra:
