@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://entropianism.org/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://entropianism.org/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://entropianism.org/ru/"/>
+    </url>
+    <url>
+        <loc>https://entropianism.org/articles/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://entropianism.org/articles/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://entropianism.org/ru/articles/"/>
+    </url>
+    <url>
+        <loc>https://entropianism.org/download/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://entropianism.org/download/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://entropianism.org/ru/download/"/>
+    </url>
+    <url>
+        <loc>https://entropianism.org/textbook/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://entropianism.org/textbook/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://entropianism.org/ru/textbook/"/>
+    </url>
+    <url>
+        <loc>https://entropianism.org/ru/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://entropianism.org/ru/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://entropianism.org/"/>
+    </url>
+    <url>
+        <loc>https://entropianism.org/ru/articles/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://entropianism.org/ru/articles/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://entropianism.org/articles/"/>
+    </url>
+    <url>
+        <loc>https://entropianism.org/ru/download/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://entropianism.org/ru/download/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://entropianism.org/download/"/>
+    </url>
+    <url>
+        <loc>https://entropianism.org/ru/textbook/</loc>
+        <lastmod>2026-01-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://entropianism.org/ru/textbook/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://entropianism.org/textbook/"/>
+    </url>
+</urlset>
