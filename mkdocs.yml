@@ -6,6 +6,9 @@ site_author: Oleg Ponfilenok
 repo_url: https://github.com/oponfil/entropianism
 repo_name: oponfil/entropianism
 
+hooks:
+  - build_textbook.py
+
 theme:
   name: material
   language: en

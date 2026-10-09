@@ -60,6 +60,10 @@
 # Установка зависимостей
 pip install -r requirements.txt
 
+# txt и PDF учебника собираются из docs/textbook.ru.md.
+# txt обновляется и при mkdocs serve / mkdocs build.
+python build_textbook.py
+
 # Запуск локального сервера
 mkdocs serve
 

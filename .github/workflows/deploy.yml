@@ -35,8 +35,8 @@ jobs:
           playwright install chromium
           playwright install-deps chromium
       
-      - name: Generate PDF
-        run: python txt_to_pdf.py
+      - name: Generate textbook downloads
+        run: python build_textbook.py
       
       - name: Build and deploy
         run: mkdocs gh-deploy --force
