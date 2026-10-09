@@ -60,8 +60,8 @@ We welcome contributions! You can help with:
 # Install dependencies
 pip install -r requirements.txt
 
-# The downloadable txt and PDF are built from docs/textbook.ru.md.
-# mkdocs serve and mkdocs build also refresh the txt.
+# The downloadable txt and PDF are built from docs/textbook.md and docs/textbook.ru.md.
+# mkdocs serve and mkdocs build also refresh the txt files.
 python build_textbook.py
 
 # Run local server

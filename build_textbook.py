@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
-"""Build the downloadable Russian textbook from docs/textbook.ru.md.
+"""Build the downloadable textbooks from the site pages.
 
-The markdown page is the only source. This script writes:
+Each markdown page is the only source for that language. This script writes:
 
-- docs/ru/Entropianism_Textbook.txt
-- docs/ru/Entropianism_Textbook.pdf
+- docs/Entropianism_Textbook.txt and .pdf from docs/textbook.md
+- docs/ru/Entropianism_Textbook.txt and .pdf from docs/textbook.ru.md
 
-MkDocs calls on_pre_build() and refreshes the text file on every build.
-The PDF is written when the script is run directly (deploy does this).
+MkDocs calls on_pre_build() and refreshes the text files on every build.
+The PDFs are written when the script is run directly (deploy does this).
 """
 
 import re
@@ -18,10 +18,24 @@ from pathlib import Path
 import markdown
 
 ROOT = Path(__file__).resolve().parent
-SOURCE = ROOT / "docs" / "textbook.ru.md"
-TEXT_OUT = ROOT / "docs" / "ru" / "Entropianism_Textbook.txt"
-HTML_OUT = ROOT / "docs" / "ru" / "Entropianism_Textbook_temp.html"
-PDF_OUT = ROOT / "docs" / "ru" / "Entropianism_Textbook.pdf"
+EDITIONS = (
+    {
+        "source": ROOT / "docs" / "textbook.md",
+        "text": ROOT / "docs" / "Entropianism_Textbook.txt",
+        "html": ROOT / "docs" / "Entropianism_Textbook_temp.html",
+        "pdf": ROOT / "docs" / "Entropianism_Textbook.pdf",
+        "lang": "en",
+        "title": "Textbook of Entropianism",
+    },
+    {
+        "source": ROOT / "docs" / "textbook.ru.md",
+        "text": ROOT / "docs" / "ru" / "Entropianism_Textbook.txt",
+        "html": ROOT / "docs" / "ru" / "Entropianism_Textbook_temp.html",
+        "pdf": ROOT / "docs" / "ru" / "Entropianism_Textbook.pdf",
+        "lang": "ru",
+        "title": "Учебник Энтропианства",
+    },
+)
 
 EXTENSIONS = [
     "markdown.extensions.tables",
@@ -32,11 +46,11 @@ EXTENSIONS = [
 ]
 
 
-def read_source():
-    if not SOURCE.is_file():
-        print(f"Error: {SOURCE} not found")
+def read_markdown(path):
+    if not path.is_file():
+        print(f"Error: {path} not found")
         sys.exit(1)
-    return SOURCE.read_text(encoding="utf-8")
+    return path.read_text(encoding="utf-8")
 
 
 def render_html_body(source):
@@ -186,11 +200,10 @@ def markdown_to_text(source):
     return parser.result()
 
 
-def write_text(source=None):
-    source = read_source() if source is None else source
-    TEXT_OUT.parent.mkdir(parents=True, exist_ok=True)
-    TEXT_OUT.write_text(markdown_to_text(source), encoding="utf-8")
-    return TEXT_OUT
+def write_text(edition, source):
+    edition["text"].parent.mkdir(parents=True, exist_ok=True)
+    edition["text"].write_text(markdown_to_text(source), encoding="utf-8")
+    return edition["text"]
 
 
 PRINT_CSS = """
@@ -222,14 +235,13 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 1.2em 0; }
 """
 
 
-def write_html(source=None):
-    source = read_source() if source is None else source
+def write_html(edition, source):
     body = render_html_body(source)
     document = f"""<!DOCTYPE html>
-<html lang="ru">
+<html lang="{edition['lang']}">
 <head>
     <meta charset="utf-8">
-    <title>Учебник Энтропианства</title>
+    <title>{edition['title']}</title>
     <style>{PRINT_CSS}</style>
 </head>
 <body>
@@ -237,41 +249,52 @@ def write_html(source=None):
 </body>
 </html>
 """
-    HTML_OUT.parent.mkdir(parents=True, exist_ok=True)
-    HTML_OUT.write_text(document, encoding="utf-8")
-    return HTML_OUT
+    edition["html"].parent.mkdir(parents=True, exist_ok=True)
+    edition["html"].write_text(document, encoding="utf-8")
+    return edition["html"]
 
 
-def write_pdf(html_file):
-    from playwright.sync_api import sync_playwright
+def write_pdf(page, html_file, pdf_file):
+    page.goto(html_file.resolve().as_uri())
+    page.pdf(
+        path=str(pdf_file),
+        format="A4",
+        margin={"top": "1.8cm", "right": "1.6cm", "bottom": "1.8cm", "left": "1.6cm"},
+        print_background=True,
+    )
+    return pdf_file
 
-    with sync_playwright() as playwright:
-        browser = playwright.chromium.launch()
-        page = browser.new_page()
-        page.goto(html_file.resolve().as_uri())
-        page.pdf(
-            path=str(PDF_OUT),
-            format="A4",
-            margin={"top": "1.8cm", "right": "1.6cm", "bottom": "1.8cm", "left": "1.6cm"},
-            print_background=True,
-        )
-        browser.close()
-    return PDF_OUT
+
+def write_texts():
+    written = []
+    for edition in EDITIONS:
+        source = read_markdown(edition["source"])
+        written.append(write_text(edition, source))
+    return written
 
 
 def on_pre_build(config):
     """MkDocs hook: refresh the downloadable text before each build."""
-    path = write_text()
-    print(f"Textbook text: {path.relative_to(ROOT)}")
+    for path in write_texts():
+        print(f"Textbook text: {path.relative_to(ROOT)}")
 
 
 def main():
-    source = read_source()
-    text_path = write_text(source)
-    print(f"Wrote {text_path.relative_to(ROOT)}")
-    html_path = write_html(source)
+    from playwright.sync_api import sync_playwright
+
+    sources = [(edition, read_markdown(edition["source"])) for edition in EDITIONS]
+    for edition, source in sources:
+        print(f"Wrote {write_text(edition, source).relative_to(ROOT)}")
+
+    html_files = [write_html(edition, source) for edition, source in sources]
     try:
-        pdf_path = write_pdf(html_path)
+        with sync_playwright() as playwright:
+            browser = playwright.chromium.launch()
+            page = browser.new_page()
+            for edition, html_file in zip(EDITIONS, html_files):
+                pdf_path = write_pdf(page, html_file, edition["pdf"])
+                print(f"Wrote {pdf_path.relative_to(ROOT)}")
+            browser.close()
     except ImportError:
         print("Playwright is not installed. Install it with: pip install playwright")
         print("Then run: playwright install chromium")
@@ -280,8 +303,8 @@ def main():
         print(f"Could not write the PDF: {error}")
         sys.exit(1)
     finally:
-        html_path.unlink(missing_ok=True)
-    print(f"Wrote {pdf_path.relative_to(ROOT)}")
+        for html_file in html_files:
+            html_file.unlink(missing_ok=True)
 
 
 if __name__ == "__main__":
