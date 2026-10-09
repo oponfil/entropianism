@@ -1,6 +1,6 @@
 # Скачать Учебник
 
-📄 [**Entropianism_Textbook.txt**](/ru/Entropianism_Textbook.txt){:download="Entropianism_Textbook.txt"}
+📄 [**Entropianism_Textbook_ru.txt**](/Entropianism_Textbook_ru.txt){:download="Entropianism_Textbook_ru.txt"}
 
-📕 [**Entropianism_Textbook.pdf**](/ru/Entropianism_Textbook.pdf){:download="Entropianism_Textbook.pdf"}
+📕 [**Entropianism_Textbook_ru.pdf**](/Entropianism_Textbook_ru.pdf){:download="Entropianism_Textbook_ru.pdf"}
 

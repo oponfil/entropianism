@@ -3,7 +3,7 @@
 !!! quote "Quotes by technoprophet Oleg Ponfilenok:"
     - *"In the beginning there was chaos. Then there was more of it."*
     - *"A future with higher uncertainty is statistically more probable."*
-    - *"The goal of all living beings is to accelerate entropy production."*
+    - *"Accelerating entropy production is the goal of all life and our beacon into the future."*
     - *"Reality is a system with maximum entropy."*
     - *"With each passing second, the Universe statistically becomes more alive."*
 

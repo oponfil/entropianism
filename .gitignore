@@ -30,9 +30,8 @@ Ignored/
 
 # Textbook downloads generated from docs/textbook.md and docs/textbook.ru.md
 docs/Entropianism_Textbook.txt
-docs/ru/Entropianism_Textbook.txt
+docs/Entropianism_Textbook_ru.txt
 *.pdf
 
 # Temporary HTML files generated during PDF creation
-docs/ru/*_temp.html
 *_temp.html

@@ -60,7 +60,8 @@
 # Установка зависимостей
 pip install -r requirements.txt
 
-# txt и PDF учебника собираются из docs/textbook.md и docs/textbook.ru.md.
+# Английские файлы: docs/Entropianism_Textbook.txt и .pdf из docs/textbook.md.
+# Русские файлы: docs/Entropianism_Textbook_ru.txt и .pdf из docs/textbook.ru.md.
 # txt обновляется и при mkdocs serve / mkdocs build.
 python build_textbook.py
 

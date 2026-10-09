@@ -4,7 +4,7 @@
 Each markdown page is the only source for that language. This script writes:
 
 - docs/Entropianism_Textbook.txt and .pdf from docs/textbook.md
-- docs/ru/Entropianism_Textbook.txt and .pdf from docs/textbook.ru.md
+- docs/Entropianism_Textbook_ru.txt and .pdf from docs/textbook.ru.md
 
 MkDocs calls on_pre_build() and refreshes the text files on every build.
 The PDFs are written when the script is run directly (deploy does this).
@@ -29,9 +29,9 @@ EDITIONS = (
     },
     {
         "source": ROOT / "docs" / "textbook.ru.md",
-        "text": ROOT / "docs" / "ru" / "Entropianism_Textbook.txt",
-        "html": ROOT / "docs" / "ru" / "Entropianism_Textbook_temp.html",
-        "pdf": ROOT / "docs" / "ru" / "Entropianism_Textbook.pdf",
+        "text": ROOT / "docs" / "Entropianism_Textbook_ru.txt",
+        "html": ROOT / "docs" / "Entropianism_Textbook_ru_temp.html",
+        "pdf": ROOT / "docs" / "Entropianism_Textbook_ru.pdf",
         "lang": "ru",
         "title": "Учебник Энтропианства",
     },

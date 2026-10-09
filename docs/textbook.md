@@ -730,21 +730,15 @@ We get that: 1 J/K ≈ 1.05 × 10²³ bits of unknown information about a physic
 
 ### Maximum Entropy Production Principle
 
-Maximum Entropy Production Principle (MEPP). This principle states that in physical systems far from thermodynamic equilibrium, processes occur that maximize the rate of entropy growth S′.
+According to the second law of thermodynamics, an isolated system eventually reaches a static state of thermodynamic equilibrium with maximum entropy. An open system, one through which energy flows, does not.
 
-1. **Example with an iron rod:** If we take a simple iron rod and heat it from one end while cooling it from the other, heat will be transferred uniformly across its entire cross-section, establishing a linear temperature profile. This happens because such a profile ensures maximum heat flow and, accordingly, maximum entropy production under given boundary conditions.
+For such open dissipative systems, the Maximum Entropy Production Principle (MEPP) applies: ∮ Jₛ · dA → max. Under given external constraints, a non-equilibrium system tends toward the regime with the maximum rate of entropy production. MEPP acts, as it were, as natural selection among possible physical processes.
 
-2. **Example with liquid and Bénard cells:** If we take a liquid, for example oil, and similarly heat it from below while cooling from above, then in addition to ordinary thermal conductivity, convection flows will first appear in the oil, and then they will structure into Bénard cells. These cells appear and remain stable because they transfer heat and produce entropy significantly faster than with thermal conductivity alone.
+Here is an example. If we take a liquid, for example oil, and heat it from below while cooling it from above, then in addition to ordinary thermal conductivity, convection flows first appear in the oil, and then they organize into so-called Bénard cells. These cells appear and remain stable because they transfer heat and produce entropy much faster than thermal conductivity alone.
 
-3. **Example with turbulent flows:** It's not necessary to have a temperature difference. If we pour equally hot milk into hot coffee, turbulent flows will form during pouring that quickly mix the milk with coffee. Turbulence increases the rate of mixing, and hence entropy production, contributing to faster equilibrium achievement.
+A temperature difference is not even necessary. If we pour equally hot milk into hot coffee, turbulent flows form as it is poured and quickly mix the milk with the coffee. Turbulence increases the mixing rate, and therefore entropy production, helping the system reach equilibrium faster.
 
-4. **Application of MEPP in nature:** This same principle explains the formation of hurricanes, ocean currents, and even the appearance and evolution of life. Our teaching largely relies on MEPP, but not only on it.
-
-However, MEPP is controversial and not considered universally accepted. Despite many examples where it works, there are situations where it is not observed. For MEPP it is very important that the system is far from thermodynamic equilibrium. The further away, the stronger the effect. If the system approaches equilibrium, Ilya Prigogine's principle of minimum entropy production begins to act, according to which entropy production is minimized.
-
-Also, not all processes are physically possible. For example, in a solid rod from the first example, convection is impossible. And in liquids at low Reynolds numbers, flows remain laminar and turbulence does not arise.
-
-MEPP has its limitations and is not a universal law, but it is successfully applied in practice and explains a wide spectrum of physical phenomena.
+Although MEPP is considered controversial (not all scientists agree with it), it successfully explains the formation of hurricanes, ocean currents, and many other thermodynamic processes.
 
 ---
 
