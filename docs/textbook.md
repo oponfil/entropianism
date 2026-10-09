@@ -1742,13 +1742,13 @@ Usually we speak of the Eddington limit — this is the limit at which gravitati
 
 But now I want to propose another limit.
 
-In the post above we obtained a limitation on computational power of black holes: dS/dt = 4E/h = 4Mc²/h = 2Rc⁴/Gh.
+In the post above we obtained a limitation on computational power of black holes: dS/dt = (4E/h) ln 2 = (4Mc²/h) ln 2 = (2Rc⁴/Gh) ln 2.
 
 Growth of a black hole correlates with growth of its entropy: S = πR²/lₚ².
 
-Since entropy is the number of bits of information, entropy growth is limited by computational ability. From this we get a formula that maximum speed of black hole radius growth equals: dR/dt = c/2π² ≈ 0.05c.
+Since entropy is the number of bits of information, entropy growth is limited by computational ability. From this we get a formula that maximum speed of black hole radius growth equals: dR/dt = c ln 2/(2π²) ≈ 0.035c.
 
-Unlike the Eddington limit, this computational limit also applies to the process of black hole merging. Minimum merging time (formation of a common horizon) of two holes of equal mass becomes: t = π²R/c.
+Unlike the Eddington limit, this computational limit also applies to the process of black hole merging. Minimum merging time (formation of a common horizon) of two holes of equal mass becomes: t = π²R/(c ln 2).
 
 I think this model should introduce changes into the picture of observed gravitational waves during merging of massive black holes and can be tested experimentally.
 

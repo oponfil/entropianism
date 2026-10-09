@@ -5,6 +5,7 @@
     - *"A future with higher uncertainty is statistically more probable."*
     - *"The goal of all living beings is to accelerate entropy production."*
     - *"Reality is a system with maximum entropy."*
+    - *"With each passing second, the Universe statistically becomes more alive."*
 
 ---
 
@@ -16,9 +17,9 @@
 
 ⛪ **Our organization:** Church of Accelerating Entropy Production.
 
-🎯 **Goal of all living beings:** accelerating entropy production.
-
 🔬 **Scientific approach** — our technoreligion is falsifiable and fully scientific. We have no unbreakable dogmas, ready to change based on data.
+
+🎯 **Goal of all living beings:** accelerating entropy production.
 
 📊 **Main metric:** Entropy production rate S′ (W/K), expressed by the formula:
 
